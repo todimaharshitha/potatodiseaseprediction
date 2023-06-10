@@ -47,11 +47,3 @@ co1, co2, co3,co4,co5 = st.columns(5)
 
 with co1:
     st.image(teja, caption="Tejeswara Murthy Palwadi", use_column_width=True)
-with co2:
-    st.image(durga, caption="Durga Vara Prasad Vibudi", use_column_width=True)
-with co3:
-    st.image(pavan, caption="Guda Pavaneeshwar Reddy", use_column_width=True)
-with co4:
-    st.image(harshi, caption="Todima Harshitha Reddy", use_column_width=True)
-with co5:
-    st.image(bharath, caption="N B V Bharath", use_column_width=True)
