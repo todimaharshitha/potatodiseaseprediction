@@ -43,7 +43,7 @@ harshi = Image.open("pics/harshi.jpeg")
 bharath = Image.open("pics/bharath.jpeg")
 
 # Display images in a row
-co1, co2, co3,co4,co5 = st.columns(5)
+co1, co2= st.columns(2)
 
 with co1:
     st.image(teja, caption="Tejeswara Murthy Palwadi", use_column_width=True)
