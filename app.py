@@ -35,15 +35,11 @@ if uploaded_image is not None:
         st.title("Invalid Image")
 
 
-st.write("<h1 style='text-align: center;'>AUTHORS</h1>", unsafe_allow_html=True)
+st.write("<h1 style='text-align: center;'>AUTHOR</h1>", unsafe_allow_html=True)
 teja = Image.open("pics/teja.jpg")
-pavan= Image.open("pics/pavan.jpg")
-durga = Image.open("pics/durga.jpg")
-harshi = Image.open("pics/harshi.jpeg")
-bharath = Image.open("pics/bharath.jpeg")
 
 # Display images in a row
-co1, co2= st.columns(2)
+co1= st.columns(1)
 
 with co1:
     st.image(teja, caption="Tejeswara Murthy Palwadi", use_column_width=True)
