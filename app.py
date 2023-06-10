@@ -37,9 +37,4 @@ if uploaded_image is not None:
 
 st.write("<h1 style='text-align: center;'>AUTHOR</h1>", unsafe_allow_html=True)
 teja = Image.open("pics/teja.jpg")
-
-# Display images in a row
-co1= st.columns(1)
-
-with co1:
-    st.image(teja, caption="Tejeswara Murthy Palwadi", use_column_width=True)
+ st.image(teja, caption="Tejeswara Murthy Palwadi", use_column_width=True)
