@@ -34,7 +34,7 @@ if uploaded_image is not None:
     except Exception as e:
         st.title("Invalid Image")
 
-teja = Image.open("path/to/teja/image.jpg")
+teja = Image.open("pics/teja.jpg")
 
 # Create a card with centered content
 col1, col2, col3 = st.beta_columns([1, 4, 1])
