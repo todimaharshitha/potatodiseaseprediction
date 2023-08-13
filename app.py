@@ -36,7 +36,6 @@ if uploaded_image is not None:
 
 
 st.write("<h1 style='text-align: center;'>AUTHOR</h1>", unsafe_allow_html=True)
-teja = Image.open("pics/teja.jpg")
-st.image(teja, caption="Tejeswara Murthy Palwadi", width=150, use_column_width=False, output_format="JPEG", use_container_width=True)
+st.image(Image.open("pics/teja.jpg"), caption="Tejeswara Murthy Palwadi", width=150, use_container_width=True)
 
 
