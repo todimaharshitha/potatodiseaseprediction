@@ -34,19 +34,8 @@ if uploaded_image is not None:
     except Exception as e:
         st.title("Invalid Image")
 
+teja = Image.open("pics/teja.jpg")
 
-st.write("<h1 style='text-align: center;'>AUTHOR</h1>", unsafe_allow_html=True)
-# teja = Image.open("pics/teja.jpg")
-
-# left_co, cent_co,last_co = st.columns(3)
-# with cent_co:
-#     st.image(teja, caption="Tejeswara Murthy Palwadi", width=150)
-
-st.write(
-    """
-    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <img src="/pics/teja.jpg" alt="Tejeswara Murthy Palwadi" width="150">
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+left_co, cent_co,last_co = st.columns(3)
+with cent_co:
+    st.image(teja, caption="AUTHOR : Tejeswara Murthy Palwadi", width=150)
