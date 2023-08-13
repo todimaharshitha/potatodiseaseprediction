@@ -34,12 +34,12 @@ if uploaded_image is not None:
     except Exception as e:
         st.title("Invalid Image")
 
-teja = Image.open("pics/teja.jpg")
+harshi = Image.open("pics/harshi.jpeg")
 
 # Create a card with centered content
 col1, col2, col3 = st.columns([4, 4, 4])
 with col2:
-    st.image(teja, width=200)
+    st.image(harshi, width=200)
 
 st.markdown("<h3 style='text-align: center;'>Tejeswara Murthy Palwadi</h3>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 14px;'>Author</p>", unsafe_allow_html=True)
