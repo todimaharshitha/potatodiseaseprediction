@@ -37,7 +37,7 @@ if uploaded_image is not None:
 teja = Image.open("pics/teja.jpg")
 
 # Create a card with centered content
-col1, col2, col3 = st.beta_columns([1, 4, 1])
+col1, col2, col3 = st.columns([1, 4, 1])
 with col2:
     st.image(teja, width=200, use_container_width=True)
     st.markdown("<h3 style='text-align: center;'>Tejeswara Murthy Palwadi</h3>", unsafe_allow_html=True)
