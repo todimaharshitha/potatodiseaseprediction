@@ -39,6 +39,6 @@ teja = Image.open("pics/teja.jpg")
 # Create a card with centered content
 col1, col2, col3 = st.columns([1, 4, 1])
 with col2:
-    st.image(teja, width=200, use_container_width=True)
+    st.image(teja, width=200)
     st.markdown("<h3 style='text-align: center;'>Tejeswara Murthy Palwadi</h3>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; font-size: 14px;'>Author</p>", unsafe_allow_html=True)
