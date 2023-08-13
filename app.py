@@ -41,5 +41,5 @@ col1, col2, col3 = st.columns([4, 4, 4])
 with col2:
     st.image(harshi, width=200)
 
-st.markdown("<h3 style='text-align: center;'>Tejeswara Murthy Palwadi</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>Todima Harshitha</h3>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 14px;'>Author</p>", unsafe_allow_html=True)
