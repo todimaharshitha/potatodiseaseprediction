@@ -37,11 +37,7 @@ if uploaded_image is not None:
 
 st.write("<h1 style='text-align: center;'>AUTHOR</h1>", unsafe_allow_html=True)
 teja = Image.open("pics/teja.jpg")
-col1, col2, col3 = st.columns(3)
 
-# Adding an empty column on the left
-col1.write("")
-# Centering the image in the middle column
-col2.image(teja, caption="Tejeswara Murthy Palwadi", width=150, use_container_width=True)
-# Adding an empty column on the right
-col3.write("")
+left_co, cent_co,last_co = st.columns(3)
+with cent_co:
+    st.image(teja, caption="Tejeswara Murthy Palwadi", width=150, use_container_width=True)
