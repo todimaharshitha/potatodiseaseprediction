@@ -34,9 +34,11 @@ if uploaded_image is not None:
     except Exception as e:
         st.title("Invalid Image")
 
-teja = Image.open("pics/teja.jpg")
+teja = Image.open("path/to/teja/image.jpg")
 
-left_co, cent_co,last_co = st.columns(3)
-with cent_co:
-    st.image(teja, caption="Tejeswara Murthy Palwadi", width=150)
-st.write("<p style='font-size: 12px; text-align: center;'>AUTHOR</p>", unsafe_allow_html=True)
+# Create a card with centered content
+col1, col2, col3 = st.beta_columns([1, 4, 1])
+with col2:
+    st.image(teja, width=200, use_container_width=True)
+    st.markdown("<h3 style='text-align: center;'>Tejeswara Murthy Palwadi</h3>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 14px;'>Author</p>", unsafe_allow_html=True)
