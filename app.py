@@ -37,7 +37,7 @@ if uploaded_image is not None:
 
 st.write("<h1 style='text-align: center;'>AUTHOR</h1>", unsafe_allow_html=True)
 teja = Image.open("pics/teja.jpg")
-col1, col2, col3 = st.beta_columns(3)
+col1, col2, col3 = st.columns(3)
 
 # Adding an empty column on the left
 col1.write("")
