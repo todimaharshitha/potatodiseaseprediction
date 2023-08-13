@@ -40,4 +40,4 @@ teja = Image.open("pics/teja.jpg")
 
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
-    st.image(teja, caption="Tejeswara Murthy Palwadi", width=150, use_container_width=True)
+    st.image(teja, caption="Tejeswara Murthy Palwadi", width=150)
