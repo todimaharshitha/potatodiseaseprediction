@@ -36,6 +36,13 @@ if uploaded_image is not None:
 
 
 st.write("<h1 style='text-align: center;'>AUTHOR</h1>", unsafe_allow_html=True)
-st.image(Image.open("pics/teja.jpg"), caption="Tejeswara Murthy Palwadi", width=150, use_container_width=True)
-
+# teja = Image.open("pics/teja.jpg")
+st.markdown(
+    """
+    <div style="display: flex; justify-content: center;">
+        <img src="pics/teja.jpg" alt="Tejeswara Murthy Palwadi" width="150">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
