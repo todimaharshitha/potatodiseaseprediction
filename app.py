@@ -38,4 +38,5 @@ teja = Image.open("pics/teja.jpg")
 
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
-    st.image(teja, caption="AUTHOR : Tejeswara Murthy Palwadi", width=150)
+    st.image(teja, caption="Tejeswara Murthy Palwadi", width=150)
+st.write("<p style='font-size: 12px; text-align: center;'>AUTHOR</p>", unsafe_allow_html=True)
