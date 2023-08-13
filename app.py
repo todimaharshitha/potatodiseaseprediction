@@ -37,7 +37,7 @@ if uploaded_image is not None:
 teja = Image.open("pics/teja.jpg")
 
 # Create a card with centered content
-col1, col2, col3 = st.columns([3, 4, 3])
+col1, col2, col3 = st.columns([4, 4, 4])
 with col2:
     st.image(teja, width=200)
 
